@@ -21,9 +21,9 @@ while(running){
    }else{
     attempts++;
     if(guess<answer){
-        alert(`TRY AGAIN, ITS TOO LOW`);
+        alert(`TRY AGAIN, IT'S TOO LOW`);
     }else if(guess>answer){
-       alert(`TRY AGAIN, ITS TOO HEIGHT`); 
+       alert(`TRY AGAIN, IT'S TOO HEIGHT`); 
     }else{
 alert(`CORRECT, THE ANSWER WAS ${answer}. It took you the ${attempts}atempts`);
 running = false;
